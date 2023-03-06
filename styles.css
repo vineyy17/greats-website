@@ -1,0 +1,596 @@
+body{
+    height: 450%;
+    overflow: auto;
+    width: 100vw;
+    overflow-x: hidden !important;
+}
+
+.navbar{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nav-item{
+    padding-left: 2.5rem;
+}
+
+.navbar-brand{
+    margin-left: 4.5rem !important;
+}
+
+.nav-item-group{
+    margin-right: 4.5rem;
+}
+
+.nav-routes:hover{
+    color: #3E6FF4 !important;
+}
+
+.nft-img-1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 90%;
+}
+
+.nft-img-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -2;
+    height: 95%;
+}
+
+section{
+    font-family: 'Poppins';
+}
+
+.section-one{
+    margin-top: 6rem !important;
+    margin-left: 5rem !important;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.section-two{
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem!important;
+    padding-right: 0 !important;
+}
+
+.section-three{
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem!important;
+    padding-right: 0 !important;
+}
+
+.section-four{
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem!important;
+    padding-right: 0 !important;
+}
+
+.section-five{
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem!important;
+    padding-right: 0 !important;
+}
+
+.section-six{
+    margin-left: 4.5rem !important;
+    margin-right: 4.5rem!important;
+    padding-right: 0 !important;
+}
+
+.section-seven{
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #6495ED;
+    margin-top: 7rem !important;
+    
+}
+
+.section-eight{
+    padding-left: 5rem;
+    padding-right: 7rem;
+}
+
+.name{
+    color: #3E6FF4;
+}
+
+.about-me{
+    padding: 0.5rem;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.btn{
+    width: 9rem;
+    margin-top: 2.5rem;
+    margin-left: 0.3rem;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+    border-radius: 8px !important;
+    background-color: #3E6FF4 !important;
+    border-color: #3E6FF4 !important;
+    color: white !important;
+}
+
+.index-icon {
+    margin: 15px 15px 25px;
+    font-size: 1.3rem;
+}
+    
+.index-link {
+    text-decoration: none;
+    color: black;
+}
+
+.index-link:hover{
+    color: #3E6FF4;
+}
+
+.icons{
+    margin-top: 5.5rem;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+/* .vector{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+} */
+
+.ellipse-1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 770px;
+    top: 450px;
+}
+
+.ellipse-2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 710px;
+    top: 214px;
+}
+
+.ellipse-3{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 730px;
+    top: 100px;
+}
+
+.ellipse-4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 30px;
+    top: 100px;
+}
+
+.ellipse-5{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    left: -12px;
+    top: 200px;
+}
+
+
+.personal-info{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: black;
+    padding: 3rem;
+    padding-bottom: 0px;
+    font-family: 'Poppins';
+}
+
+.section-header{
+    color: #6495ED;
+    font-weight: 700;
+    font-size: 1.75rem;
+    text-align: center; 
+    font-family: 'Montserrat';
+}
+
+#about-paragraph{
+    margin-top: 1.1rem;
+    font-size: 1.2rem;
+}
+
+.skills-section{
+    padding: 1.2rem;
+    margin-top: 5rem !important;
+    padding-bottom: 0px;
+}
+
+.card-inner-text{
+    margin-top: 0.5rem;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+.skills-column{
+    padding: 1% 2%;
+    margin-top: 1.1rem !important;
+}
+
+.skills-section{
+    padding: 1rem;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.skill-type{
+    font-size: 1.2rem;
+}
+
+.projects{
+    margin-top: 1.1rem !important;
+    height: 38rem; 
+}
+
+.website-btn{
+    width: 8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+    display: block;
+    margin: 0 auto !important;
+}
+
+.company-text{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.web-button-div{
+    padding-left: 30rem;
+    padding-right: 30rem;
+}
+
+.contact-icon-group{
+    padding-left: 25rem;
+    padding-right: 25rem;
+}
+
+.contact-2-div{
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+
+.achievements{
+    font-size: 1.2rem;
+    margin-top: 2rem !important;
+}
+
+hr{
+    border-color: #f5f5f5;
+    border-width: 0.5px !important;
+}
+
+.contact-section{
+    margin-top: 5rem !important;
+}
+
+.contact-btn{
+    width: 8rem;
+    margin-top: 0.5rem;
+    margin-left: 0.3rem;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    border-radius: 8px !important;
+}
+
+.contact-text-1{
+    font-size: 1.2rem;
+    margin-top: 2rem !important;
+}
+
+.contact-text-2{
+    font-size: 1.2rem;
+}
+
+.footer-name{
+    font-size: 1.2rem;
+    margin-top: 1.3rem !important;
+    font-weight: 600;
+}
+
+.copyright{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 576px) {
+
+    body{
+        height: 300%;
+        overflow-y: auto;
+        width: 100vw;
+        overflow-x: hidden !important;
+        
+    }
+
+    .nft-img-1{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        height: 68%;
+        width: 75%;
+    }
+    
+    .nft-img-2{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -2;
+        height: 72%;
+        width: 73%;
+    }
+
+    .contact-2-div{
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+
+    .contact-text-2{
+        font-size: 1rem;
+    }
+
+    .section-one{
+        margin-top: 15rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+        padding-right: 0 !important;
+    }
+
+    .about-me{
+        padding: 0.3rem;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+    
+    .btn{
+        width: 7rem;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+        border-radius: 8px !important;
+        background-color: #3E6FF4 !important;
+        border-color: #3E6FF4 !important;
+        color: white !important;
+    }
+    
+    .index-icon {
+        margin: 10px 10px 20px;
+        font-size: 1.3rem;
+    }
+    
+    .icons{
+        margin-top: 2rem;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .ellipse-1{
+        display: none;
+    }
+
+    .ellipse-2{
+        display: none;
+    }
+
+    .ellipse-3{
+        display: none;
+    }
+
+    .ellipse-4{
+        display: none;
+    }
+
+    .ellipse-5{
+        display: none;
+    }
+
+    .navbar-brand{
+        margin-left: 1rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .nav-item{
+        font-size: 0.8rem !important;
+        margin-left: 0;
+    }
+
+    .section-two{
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
+        padding-right: 0 !important;
+    }
+
+    #about-paragraph{
+        margin-top: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .personal-info{
+        margin-top: 0rem !important;
+        font-size: 1.5rem;
+        color: black;
+        padding: 3rem;
+        padding-bottom: 0px;
+        font-family: 'Poppins';
+    }
+
+    .section-three{
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
+        padding-right: 0 !important;
+    }
+
+    .skills-section{
+        padding: 1.2rem;
+        margin-top: 2.5rem !important;
+        padding-bottom: 0px;
+    }
+
+    .card-inner-text{
+        margin-top: 0.5rem;
+    }
+    
+    .card-text{
+        font-size: 0.9rem;
+    }
+
+    .section-header{
+        color: #6495ED;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center; 
+        font-family: 'Montserrat';
+    }
+
+    .section-four{
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
+        padding-right: 0 !important;
+    }
+
+    .company-text{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 3%;
+        padding-bottom: 0;
+        font-size: 0.8rem;
+    }
+
+    .website-btn{
+        width: 6rem;
+        margin-top: 1rem;
+        margin-left: 0.3rem;
+        font-weight: 500 !important;
+        font-size: 1rem !important;
+        border-radius: 8px !important;
+        display: block;
+        margin: 0 auto !important;
+    }
+    
+    .web-button-div{
+        padding-left: 6.5rem;
+        padding-right: 6.5rem;
+    }
+
+    .projects{
+        margin-top: 1.1rem !important;
+        height: 22rem; 
+    }
+
+    .section-five{
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
+        padding-right: 0 !important;
+    }
+
+    .achievements{
+        font-size: 0.9rem;
+        margin-top: 1.5rem !important;
+    }
+
+    .section-eight{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .section-six{
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
+        padding-right: 0 !important;
+    }
+
+    .contact-text-1{
+        font-size: 0.9rem;
+        margin-top: 0rem !important;
+    }
+
+    .contact-text-2{
+        font-size: 0.9rem;
+    }
+
+    .contact-2-div{
+        margin-top: 0rem !important;
+    }
+
+    .contact-icon-group{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .section-seven{
+        margin: 0 !important;
+        padding: 0 !important;
+        background-color: #6495ED;
+        margin-top: 5rem !important;
+        
+    }
+
+    .footer-name{
+        font-size: 1rem;
+        margin-top: 1.3rem !important;
+        font-weight: 600;
+    }
+    
+    .copyright{
+        font-size: 0.6rem;
+        margin-top: 1rem;
+        font-weight: 600;
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
