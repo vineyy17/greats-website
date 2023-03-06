@@ -317,7 +317,7 @@ hr{
 .entry-hidden{
     opacity: 0;
     filter: blur(4px);
-    transform: translateY(200px);
+    transform: translateY(150px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
@@ -345,7 +345,7 @@ hr{
         top: 0;
         right: 0;
         z-index: -1;
-        height: 45%;
+        height: 48%;
     }
     
     .nft-img-2{
@@ -353,7 +353,7 @@ hr{
         top: 0;
         right: 0;
         z-index: -2;
-        height: 47%;
+        height: 50%;
     }
 
     .contact-2-div{
