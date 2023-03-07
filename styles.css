@@ -378,7 +378,7 @@ hr{
         top: 0;
         right: 0;
         z-index: -2;
-        height: 47%;
+        height: 48%;
     }
 
     .contact-2-div{
@@ -530,8 +530,8 @@ hr{
     }
     
     .web-button-div{
-        padding-left: 36%;
-        padding-right: 36%;
+        padding-left: 35%;
+        padding-right: 35%;
     }
 
     .projects{
@@ -575,8 +575,8 @@ hr{
     }
 
     .contact-icon-group{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .section-seven{
@@ -604,11 +604,9 @@ hr{
         height: 10%;
         margin-bottom: 0.5rem;
     }
-
-    
-    
 }
 
+/* @media (min-width: 768px) { ... }  */
 
 
 
@@ -618,14 +616,13 @@ hr{
 
 
 
-/* // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
 
-// Large devices (desktops, 992px and up)
+
+/* // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { ... }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... } */
+@media (min-width: 1400px) { ... } */ */
