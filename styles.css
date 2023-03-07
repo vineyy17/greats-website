@@ -327,6 +327,12 @@ hr{
     transform: translateY(0);
 }
 
+#wave{
+    width: 5%;
+    height: 10%;
+    margin-bottom: 1rem;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -572,6 +578,12 @@ hr{
         font-size: 0.6rem;
         margin-top: 1rem;
         font-weight: 600;
+    }
+
+    #wave{
+        width: 10%;
+        height: 10%;
+        margin-bottom: 0.5rem;
     }
 
     
