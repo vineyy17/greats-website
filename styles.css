@@ -917,10 +917,10 @@ hr{
     html{
         overflow-x: hidden !important; 
         width: 100vw !important;
-        height: 200% !important;
+        height: 300% !important;
     }
     body{
-        height: 200% !important;
+        height: 300% !important;
         overflow-y: auto;
         width: 100vw !important;
         overflow-x: hidden !important;
@@ -1190,7 +1190,7 @@ hr{
         margin: 0 !important;
         padding: 0 !important;
         background-color: #6495ED;
-        margin-top: 5rem !important;
+        margin-top: 6rem !important;
         
     }
 
