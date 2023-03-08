@@ -912,7 +912,7 @@ hr{
     }
 } 
 
-@media (orientation: landscape) and (min-width: 361px) and (max-width: 2000px) {
+@media (orientation: landscape) and (min-width: 361px) and (max-width: 1000px) {
     body{
         height: 400%;
         overflow-y: auto;
@@ -926,7 +926,8 @@ hr{
         top: 0;
         right: 0;
         z-index: -1;
-        height: 90%;
+        height: 86% !important;
+        width: 40% !important;
     }
     
     .nft-img-2{
@@ -934,7 +935,8 @@ hr{
         top: 0;
         right: 0;
         z-index: -2;
-        height: 95%;
+        height: 89% !important;
+        width: 40% !important;
     }
 
     /* .contact-2-div{
@@ -942,25 +944,26 @@ hr{
         padding-right: 0rem;
     } */
 
-    .section-one{
-        margin-top: 6rem !important;
-        margin-left: 5rem !important;
+    .section-one{ 
+        margin-top: 4rem !important;
+        margin-left: 2rem !important;
         margin-right: 0rem !important;
         padding-right: 0 !important;
     }
 
     .about-me{
-        padding: 0.5rem;
+        padding: 0.1rem;
         font-weight: 700;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
+        margin-top: 0rem !important;
     }
     
     .btn{
-        width: 9rem;
-        margin-top: 2.5rem;
-        margin-left: 0.3rem;
+        width: 6rem;
+        margin-top: 0rem;
+        margin-left: 0rem;
         font-weight: 600 !important;
-        font-size: 1.2rem !important;
+        font-size: 0.9rem !important;
         border-radius: 8px !important;
         background-color: #3E6FF4 !important;
         border-color: #3E6FF4 !important;
@@ -968,12 +971,12 @@ hr{
     }
     
     .index-icon {
-        margin: 15px 15px 25px;
-        font-size: 1.3rem;
+        margin: 8px 8px 15px;
+        font-size: 1rem;
     }
     
     .icons{
-        margin-top: 5.5rem;
+        margin-top: 0.5rem;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
@@ -982,23 +985,24 @@ hr{
         position: absolute;
         width: 17px;
         height: 17px;
-        left: 770px;
+        left: 200px;
         top: 450px;
+        display: none;
     }
     
     .ellipse-2{
         position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 710px;
+        width: 15px;
+        height: 15px;
+        left: 420px;
         top: 214px;
     }
     
     .ellipse-3{
         position: absolute;
-        width: 20px;
-        height: 20px;
-        left: 730px;
+        width: 15px;
+        height: 15px;
+        left: 250px;
         top: 100px;
     }
     
@@ -1008,6 +1012,7 @@ hr{
         height: 20px;
         left: 30px;
         top: 100px;
+        display: none;
     }
     
     .ellipse-5{
@@ -1023,17 +1028,21 @@ hr{
     }
 
     .navbar-brand{
-        margin-left: 4.5rem !important;
-        font-size: 0.9rem !important;
+        margin-left: 1rem !important;
+        font-size: 0.8rem !important;
     }
 
     .nav-item{
-        font-size: 0.9rem !important;
+        font-size: 0.8rem !important;
         margin-left: 0;
     }
 
     .navbar-item-group{
-        margin-right: 4.5rem;
+        margin-right: 1rem;
+    }
+
+    .navbar-toggler{
+        margin-right: 15rem !important;
     }
 
     .section-two{
@@ -1185,7 +1194,7 @@ hr{
         font-weight: 600;
     }
 
-}
+} 
 
 @media (min-width: 515px) and (max-width: 576px) {
 
@@ -1441,7 +1450,7 @@ hr{
     }
 } 
 
-@media (min-width: 576px) and (max-width: 768px) {
+@media (orientation: portrait) and (min-width: 576px) and (max-width: 768px) {
     body{
         height: 300%;
         overflow-y: auto;
@@ -1945,10 +1954,6 @@ hr{
 }    */
 
   
-
-
-
-
 
 
 
