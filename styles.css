@@ -917,9 +917,10 @@ hr{
     html{
         overflow-x: hidden !important; 
         width: 100vw !important;
+        height: 200% !important;
     }
     body{
-        height: 400%;
+        height: 200% !important;
         overflow-y: auto;
         width: 100vw !important;
         overflow-x: hidden !important;
@@ -927,7 +928,7 @@ hr{
     }
 
     .nft-img-1{
-        position: absolute;
+        position: absolute !important;
         top: 0;
         right: 0;
         z-index: -1;
@@ -936,7 +937,7 @@ hr{
     }
     
     .nft-img-2{
-        position: absolute;
+        position: absolute !important;
         top: 0;
         right: 0;
         z-index: -2;
@@ -1051,18 +1052,18 @@ hr{
     } */
 
     .section-two{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
         padding-right: 0 !important;
     }
 
     #about-paragraph{
-        margin-top: 1.1rem;
-        font-size: 1.2rem;
+        margin-top: 0rem;
+        font-size: 0.9rem;
     }
 
     .personal-info{
-        margin-top: 3rem !important;
+        margin-top: 1rem !important;
         font-size: 1.5rem;
         color: black;
         padding: 3rem;
@@ -1071,21 +1072,21 @@ hr{
     }
 
     .section-three{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 5rem !important;
+        margin-right: 5rem!important;
         padding-right: 0 !important;
     }
 
     .skills-section{
         padding: 1.2rem;
-        margin-top: 5rem !important;
+        margin-top: 4rem !important;
         padding-bottom: 0px;
     }
 
     .skill-type{
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .card-inner-text{
@@ -1093,33 +1094,33 @@ hr{
     }
     
     .card-text{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .section-header{
         color: #6495ED;
         font-weight: 700;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         text-align: center; 
         font-family: 'Montserrat';
     }
 
     .section-four{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     .company-text{
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 4%;
+        padding-right: 4%;
         padding-top: 3%;
         padding-bottom: 0;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     .website-btn{
-        width: 8rem;
+        width: 7rem;
         margin-top: 0.5rem;
         margin-left: 0.3rem;
         font-weight: 500 !important;
@@ -1130,24 +1131,24 @@ hr{
     }
     
     .web-button-div{
-        padding-left: 30rem;
-        padding-right: 30rem;
+        padding-left: 40%;
+        padding-right: 40%;
     }
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 38rem; 
+        height: 23rem; 
     }
 
     .section-five{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     .achievements{
-        font-size: 1.2rem;
-        margin-top: 2rem !important;
+        font-size: 0.9rem;
+        margin-top: 1rem !important;
     }
 
     .section-eight{
@@ -1156,45 +1157,51 @@ hr{
     }
 
     .section-six{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     .contact-text-1{
-        font-size: 1.2rem;
-        margin-top: 2rem !important;
+        font-size: 0.9rem;
+        margin-top: 1rem !important;
     }
 
     .contact-text-2{
-        font-size: 1.2rem;
+        font-size: 0.9rem;
     }
 
     .contact-2-div{
         margin-top: 0rem !important;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .contact-section{
+        margin-top: 4rem !important;
     }
 
     .contact-icon-group{
-        padding-left: 25rem;
-        padding-right: 25rem;
+        padding-left: 30%;
+        padding-right: 30%;
     }
 
     .section-seven{
         margin: 0 !important;
         padding: 0 !important;
         background-color: #6495ED;
-        margin-top: 7rem !important;
+        margin-top: 5rem !important;
         
     }
 
     .footer-name{
-        font-size: 1.2rem;
-        margin-top: 2rem !important;
+        font-size: 1.1rem;
+        margin-top: 0.9rem !important;
         font-weight: 600;
     }
     
     .copyright{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-top: 1.3rem;
         font-weight: 600;
     }
