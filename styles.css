@@ -916,6 +916,7 @@ hr{
 
     html{
         overflow-x: hidden !important; 
+        /* overflow-y: scroll; */
         width: 100vw !important;
         height: 200% !important;
     }
@@ -960,7 +961,7 @@ hr{
     .about-me{
         padding: 0.1rem;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin-top: 0rem !important;
     }
     
@@ -1034,12 +1035,12 @@ hr{
     }
 
     .navbar-brand{
-        margin-left: 1rem !important;
-        font-size: 0.8rem !important;
+        margin-left: 1.5rem !important;
+        font-size: 0.9rem !important;
     }
 
     .nav-item{
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
         margin-left: 0;
     }
 
@@ -1059,11 +1060,11 @@ hr{
 
     #about-paragraph{
         margin-top: 0rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .personal-info{
-        margin-top: 1rem !important;
+        margin-top: 1.2rem !important;
         font-size: 1.5rem;
         color: black;
         padding: 3rem;
@@ -1086,7 +1087,7 @@ hr{
     .skill-type{
         margin-top: 0.2rem;
         margin-bottom: 0.2rem;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .card-inner-text{
@@ -1094,13 +1095,13 @@ hr{
     }
     
     .card-text{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .section-header{
         color: #6495ED;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         text-align: center; 
         font-family: 'Montserrat';
     }
@@ -1116,7 +1117,7 @@ hr{
         padding-right: 4%;
         padding-top: 3%;
         padding-bottom: 0;
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .website-btn{
@@ -1137,7 +1138,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 23rem; 
+        height: 24rem; 
     }
 
     .section-five{
@@ -1147,7 +1148,7 @@ hr{
     }
 
     .achievements{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 1rem !important;
     }
 
@@ -1163,18 +1164,18 @@ hr{
     }
 
     .contact-text-1{
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-top: 1rem !important;
     }
 
     .contact-text-2{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
 
     .contact-2-div{
         margin-top: 0rem !important;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
     .contact-section{
@@ -1190,7 +1191,7 @@ hr{
         margin: 0 !important;
         padding: 0 !important;
         background-color: #6495ED;
-        margin-top: 6rem !important;
+        margin-top: 7rem !important;
         
     }
 
