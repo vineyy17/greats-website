@@ -349,7 +349,7 @@ hr{
 
 /* MEDIA QUERIES */
 
-@media (min-width: 200px) and (max-width: 300px) {
+@media (min-width: 200px) and (max-width: 361px) {
 
     body{
         height: 300%;
@@ -394,11 +394,11 @@ hr{
     .about-me{
         padding: 0.3rem;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.5rem !important;
     }
     
     .btn{
-        width: 7rem;
+        width: 6rem;
         margin-top: 1rem;
         margin-left: 0.3rem;
         font-weight: 600 !important;
@@ -411,7 +411,7 @@ hr{
     
     .index-icon {
         margin: 10px 10px 20px;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .icons{
@@ -421,22 +421,42 @@ hr{
     }
 
     .ellipse-1{
-        display: none;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 80%;
+        top: 345px;
     }
-
+    
     .ellipse-2{
-        display: none;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 60%;
+        top: 330px;
     }
-
+    
     .ellipse-3{
         display: none;
     }
-
+    
     .ellipse-4{
-        display: none;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 100px;
+    }
+    
+    .ellipse-5{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        left: -12px;
+        top: 200px;
     }
 
-    .ellipse-5{
+    .ellipse-6{
         display: none;
     }
 
@@ -458,22 +478,21 @@ hr{
 
     #about-paragraph{
         margin-top: 1rem;
-        font-size: 0.9rem;
-    }
-
-    .personal-info{
-        margin-top: 0rem !important;
-        font-size: 1.5rem;
-        color: black;
-        padding: 3rem;
-        padding-bottom: 0px;
-        font-family: 'Poppins';
+        font-size: 0.75rem;
     }
 
     .section-three{
         margin-left: 2rem !important;
         margin-right: 2rem!important;
         padding-right: 0 !important;
+    }
+
+    .button-text{
+        font-size: 0.8rem !important;
+    }
+
+    .personal-info{
+        margin-top: 1rem;
     }
 
     .skills-section{
@@ -483,17 +502,21 @@ hr{
     }
 
     .card-inner-text{
-        margin-top: 0.5rem;
+        margin-top: 0rem;
     }
     
     .card-text{
+        font-size: 0.7rem;
+    }
+
+    .skill-type{
         font-size: 0.9rem;
     }
 
     .section-header{
         color: #6495ED;
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         text-align: center; 
         font-family: 'Montserrat';
     }
@@ -509,15 +532,15 @@ hr{
         padding-right: 2%;
         padding-top: 3%;
         padding-bottom: 0;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .website-btn{
-        width: 6rem;
+        width: 4rem;
         margin-top: 1rem;
         margin-left: 0.3rem;
         font-weight: 500 !important;
-        font-size: 1rem !important;
+        font-size: 0.5rem !important;
         border-radius: 8px !important;
         display: block;
         margin: 0 auto !important;
@@ -530,7 +553,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 22rem; 
+        height: 16rem; 
     }
 
     .section-five{
@@ -540,7 +563,7 @@ hr{
     }
 
     .achievements{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         margin-top: 1.5rem !important;
     }
 
@@ -556,12 +579,16 @@ hr{
     }
 
     .contact-text-1{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         margin-top: 0rem !important;
     }
 
+    .contact-section{
+        margin-top: 4rem;
+    }
+
     .contact-text-2{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .contact-2-div{
@@ -569,8 +596,8 @@ hr{
     }
 
     .contact-icon-group{
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .section-seven{
@@ -582,15 +609,19 @@ hr{
     }
 
     .footer-name{
-        font-size: 1rem;
-        margin-top: 1.3rem !important;
+        font-size: 0.9rem;
+        margin-top: 0.7rem !important;
         font-weight: 600;
     }
     
     .copyright{
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         margin-top: 1rem;
         font-weight: 600;
+    }
+
+    .page-footer{
+        height: 6rem;
     }
 
     #wave{
@@ -600,12 +631,12 @@ hr{
     }
 }
 
-@media (min-width: 300px) and (max-width: 515px) {
+@media (min-width: 361px) and (max-width: 515px) {
     body{
         height: 300%;
         overflow-y: auto;
         width: 100vw;
-        overflow-x: scroll;
+        overflow-x: hidden !important;
         
     }
 
@@ -646,7 +677,7 @@ hr{
     .about-me{
         padding: 0.3rem;
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     
     .btn{
@@ -764,7 +795,7 @@ hr{
     }
 
     .card-inner-text{
-        margin-top: 0.5rem;
+        margin-top: 0rem;
     }
     
     .card-text{
@@ -911,8 +942,8 @@ hr{
 
     .section-one{
         margin-top: 18rem !important;
-        margin-left: 4rem !important;
-        margin-right: 4rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
         padding-right: 0 !important;
     }
 
@@ -946,44 +977,64 @@ hr{
     }
 
     .ellipse-1{
-        display: none;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 80%;
+        top: 345px;
     }
-
+    
     .ellipse-2{
-        display: none;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        left: 60%;
+        top: 330px;
     }
-
+    
     .ellipse-3{
         display: none;
     }
-
+    
     .ellipse-4{
-        display: none;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 30px;
+        top: 100px;
+    }
+    
+    .ellipse-5{
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        left: -12px;
+        top: 200px;
     }
 
-    .ellipse-5{
+    .ellipse-6{
         display: none;
     }
 
     .navbar-brand{
         margin-left: 1rem !important;
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
     }
 
     .nav-item{
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
         margin-left: 0;
     }
 
     .section-two{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     #about-paragraph{
         margin-top: 1rem;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .section-three{
@@ -999,11 +1050,11 @@ hr{
     }
 
     .card-inner-text{
-        margin-top: 0.5rem;
+        margin-top: 0rem;
     }
     
     .card-text{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .section-header{
@@ -1015,8 +1066,8 @@ hr{
     }
 
     .section-four{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
@@ -1025,7 +1076,7 @@ hr{
         padding-right: 3%;
         padding-top: 5%;
         padding-bottom: 0;
-        font-size: 1.1rem;
+        font-size: 0.8rem;
     }
 
     .website-btn{
@@ -1046,38 +1097,38 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 29rem; 
+        height: 23rem; 
     }
 
     .section-five{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     .achievements{
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-top: 1.5rem !important;
     }
 
     .section-eight{
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .section-six{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 2rem !important;
+        margin-right: 2rem!important;
         padding-right: 0 !important;
     }
 
     .contact-text-1{
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-top: 0rem !important;
     }
 
     .contact-text-2{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .contact-2-div{
@@ -1098,13 +1149,13 @@ hr{
     }
 
     .footer-name{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-top: 1.3rem !important;
         font-weight: 600;
     }
     
     .copyright{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin-top: 1rem;
         font-weight: 600;
     }
@@ -1144,8 +1195,8 @@ hr{
 
     .section-one{
         margin-top: 20rem !important;
-        margin-left: 4rem !important;
-        margin-right: 4rem !important;
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
         padding-right: 0 !important;
     }
 
@@ -1179,25 +1230,44 @@ hr{
     }
 
     .ellipse-1{
-        display: none;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 54%;
+        top: 380px;
     }
-
+    
     .ellipse-2{
-        display: none;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 44%;
+        top: 340px;
     }
-
+    
     .ellipse-3{
         display: none;
     }
-
+    
     .ellipse-4{
-        display: none;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 30px;
+        top: 100px;
     }
-
+    
     .ellipse-5{
-        display: none;
+        position: absolute;
+        width: 20px;
+        height: 25px;
+        left: -12px;
+        top: 200px;
     }
 
+    .ellipse-6{
+        display: none;
+    }
     .navbar-brand{
         margin-left: 3rem !important;
         font-size: 1.3rem !important;
@@ -1208,15 +1278,19 @@ hr{
         margin-left: 0;
     }
 
+    .navbar-item-group{
+        margin-left: 1rem;
+    }
+
     .section-two{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 3rem !important;
+        margin-right: 3rem!important;
         padding-right: 0 !important;
     }
 
     #about-paragraph{
         margin-top: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .section-three{
@@ -1231,12 +1305,17 @@ hr{
         padding-bottom: 0px;
     }
 
+    .skill-type{
+        font-size: 1.3rem;
+        margin-top: 0.5rem;
+    }
+
     .card-inner-text{
         margin-top: 0.5rem;
     }
     
     .card-text{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .section-header{
@@ -1248,8 +1327,8 @@ hr{
     }
 
     .section-four{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 3rem !important;
+        margin-right: 3rem!important;
         padding-right: 0 !important;
     }
 
@@ -1258,7 +1337,7 @@ hr{
         padding-right: 3%;
         padding-top: 5%;
         padding-bottom: 0;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .website-btn{
@@ -1279,38 +1358,38 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 29rem; 
+        height: 27rem; 
     }
 
     .section-five{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 3rem !important;
+        margin-right: 3rem!important;
         padding-right: 0 !important;
     }
 
     .achievements{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-top: 1.5rem !important;
     }
 
     .section-eight{
-        padding-left: 4rem;
-        padding-right: 4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .section-six{
-        margin-left: 4rem !important;
-        margin-right: 4rem!important;
+        margin-left: 3rem !important;
+        margin-right: 3rem!important;
         padding-right: 0 !important;
     }
 
     .contact-text-1{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         margin-top: 0rem !important;
     }
 
     .contact-text-2{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .contact-2-div{
@@ -1318,8 +1397,8 @@ hr{
     }
 
     .contact-icon-group{
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-left: 15%;
+        padding-right: 15%;
     }
 
     .section-seven{
@@ -1348,7 +1427,7 @@ hr{
     }
 }
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     body{
         height: 300%;
         overflow-y: auto;
@@ -1588,7 +1667,7 @@ hr{
         padding-left: 0rem;
         padding-right: 0rem;
     }
-}   
+}    */
 
   
 
