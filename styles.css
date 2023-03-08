@@ -916,11 +916,12 @@ hr{
 
     html{
         overflow-x: hidden !important; 
+        width: 100vw !important;
     }
     body{
         height: 400%;
         overflow-y: auto;
-        width: 100vw;
+        width: 100vw !important;
         overflow-x: hidden !important;
         
     }
