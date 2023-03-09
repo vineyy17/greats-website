@@ -1,5 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    height: 450%;
+    height: fit-content;
     overflow: auto;
     width: 100vw;
     overflow-x: hidden !important;
@@ -93,8 +97,8 @@ section{
 }
 
 .section-eight{
-    padding-left: 5rem;
-    padding-right: 7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .name{
@@ -318,7 +322,7 @@ hr{
     opacity: 0;
     filter: blur(4px);
     transform: translateY(150px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 
 .show{
@@ -352,7 +356,7 @@ hr{
 @media (min-width: 200px) and (max-width: 361px) {
 
     body{
-        height: 300%;
+        height: fit-content;
         overflow-y: auto;
         width: 100vw;
         overflow-x: hidden !important;
@@ -633,7 +637,7 @@ hr{
 
 @media (orientation: portrait) and (min-width: 361px) and (max-width: 515px) {
     body{
-        height: 300%;
+        height: fit-content;
         overflow-y: auto;
         width: 100vw;
         overflow-x: hidden !important;
@@ -919,6 +923,7 @@ hr{
         /* overflow-y: scroll; */
         width: 100vw !important;
         height: fit-content;
+        scroll-behavior: smooth;
     }
     body{
         /* height: 250% !important; */
@@ -1140,7 +1145,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 24rem; 
+        height: 25rem; 
     }
 
     .section-five{
@@ -1214,7 +1219,7 @@ hr{
 @media (min-width: 515px) and (max-width: 576px) {
 
     body{
-        height: 300%;
+        height: fit-content;
         overflow-y: auto;
         width: 100vw;
         overflow-x: hidden !important;
@@ -1467,7 +1472,7 @@ hr{
 
 @media (orientation: portrait) and (min-width: 576px) and (max-width: 768px) {
     body{
-        height: 300%;
+        height: fit-content;
         overflow-y: auto;
         width: 100vw;
         overflow-x: hidden !important;
@@ -1726,9 +1731,9 @@ hr{
     }
 }
 
-/* @media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1200px) {
     body{
-        height: 300%;
+        height: fit-content;
         overflow-y: auto;
         width: 100vw;
         overflow-x: hidden !important;
@@ -1756,7 +1761,7 @@ hr{
     .section-one{
         margin-top: 20rem !important;
         margin-left: 4rem !important;
-        margin-right: 4rem !important;
+        margin-right: 40% !important;
         padding-right: 0 !important;
     }
 
@@ -1966,7 +1971,11 @@ hr{
         padding-left: 0rem;
         padding-right: 0rem;
     }
-}    */
+}   
+
+
+
+/* @media (min-width: 1200px) { ... } */
 
   
 
@@ -1993,14 +2002,13 @@ hr{
 
 
 
-/* 
 
 
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
 
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... } */ */
+
+
+/* // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */  */
 
 
 
