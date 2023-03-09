@@ -557,7 +557,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 16rem; 
+        height: fit-content; 
     }
 
     .section-five{
@@ -626,12 +626,6 @@ hr{
 
     .page-footer{
         height: 6rem;
-    }
-
-    #wave{
-        width: 10%;
-        height: 10%;
-        margin-bottom: 0.5rem;
     }
 }
 
@@ -846,7 +840,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 22rem; 
+        height: fit-content; 
     }
 
     .section-five{
@@ -1139,7 +1133,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 25rem; 
+        height: fit-content; 
     }
 
     .section-five{
@@ -1395,7 +1389,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 23rem; 
+        height: fit-content; 
     }
 
     .section-five{
@@ -1656,7 +1650,7 @@ hr{
 
     .projects{
         margin-top: 1.1rem !important;
-        height: 27rem; 
+        height: fit-content; 
     }
 
     .section-five{
@@ -1954,7 +1948,7 @@ hr{
     
     .projects{
         margin-top: 1.1rem !important;
-        height: 38rem; 
+        height: fit-content; 
     }
     
     .website-btn{
@@ -2037,10 +2031,11 @@ hr{
 }   
 
 @media (min-width: 1400px) {
+
     .navbar{
         font-family: 'Poppins';
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
     
     .nav-item{
@@ -2048,7 +2043,8 @@ hr{
     }
     
     .navbar-brand{
-        margin-left: 4.5rem !important;
+        margin-left: 6rem !important;
+        font-size: 1.5rem !important;
     }
     
     .nav-item-group{
@@ -2064,7 +2060,8 @@ hr{
         top: 0;
         right: 0;
         z-index: -1;
-        height: 90%;
+        height: 60%;
+        width: 40%;
     }
     
     .nft-img-2{
@@ -2072,7 +2069,8 @@ hr{
         top: 0;
         right: 0;
         z-index: -2;
-        height: 95%;
+        height: 65%;
+        width: 41%;
     }
     
     section{
@@ -2081,38 +2079,38 @@ hr{
     
     .section-one{
         margin-top: 6rem !important;
-        margin-left: 5rem !important;
+        margin-left: 6rem !important;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
     
     .section-two{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 6rem !important;
+        margin-right: 6rem!important;
         padding-right: 0 !important;
     }
     
     .section-three{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 6rem !important;
+        margin-right: 6rem!important;
         padding-right: 0 !important;
     }
     
     .section-four{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 6rem !important;
+        margin-right: 6rem!important;
         padding-right: 0 !important;
     }
     
     .section-five{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 6rem !important;
+        margin-right: 6rem!important;
         padding-right: 0 !important;
     }
     
     .section-six{
-        margin-left: 4.5rem !important;
-        margin-right: 4.5rem!important;
+        margin-left: 6rem !important;
+        margin-right: 6rem!important;
         padding-right: 0 !important;
     }
     
@@ -2125,8 +2123,8 @@ hr{
     }
     
     .section-eight{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 6rem;
+        padding-right: 6rem;
     }
     
     .name{
@@ -2136,15 +2134,15 @@ hr{
     .about-me{
         padding: 0.5rem;
         font-weight: 700;
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
     
     .btn{
-        width: 9rem;
+        width: 12rem;
         margin-top: 2.5rem;
         margin-left: 0.3rem;
         font-weight: 600 !important;
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
         border-radius: 8px !important;
         background-color: #3E6FF4 !important;
         border-color: #3E6FF4 !important;
@@ -2152,8 +2150,8 @@ hr{
     }
     
     .index-icon {
-        margin: 15px 15px 25px;
-        font-size: 1.3rem;
+        margin: 25px 25px 35px;
+        font-size: 2rem;
     }
         
     .index-link {
@@ -2191,7 +2189,7 @@ hr{
         position: absolute;
         width: 20px;
         height: 20px;
-        left: 730px;
+        left: 1000px;
         top: 100px;
     }
     
@@ -2224,14 +2222,14 @@ hr{
     .section-header{
         color: #6495ED;
         font-weight: 700;
-        font-size: 1.75rem;
+        font-size: 2.3rem;
         text-align: center; 
         font-family: 'Montserrat';
     }
     
     #about-paragraph{
         margin-top: 1.1rem;
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     
     .skills-section{
@@ -2245,7 +2243,7 @@ hr{
     }
     
     .card-text{
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
     
     .skills-column{
@@ -2260,16 +2258,16 @@ hr{
     }
     
     .skill-type{
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
     
     .projects{
         margin-top: 1.1rem !important;
-        height: 38rem; 
+        height: fit-content; 
     }
     
     .website-btn{
-        width: 8rem;
+        width: 12rem;
         margin-top: 0.5rem;
         margin-left: 0.3rem;
         font-weight: 500 !important;
@@ -2284,12 +2282,12 @@ hr{
         padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 0;
-        font-size: 1.1rem;
+        font-size: 1.5rem;
     }
     
     .web-button-div{
-        padding-left: 30rem;
-        padding-right: 30rem;
+        padding-left: 45%;
+        padding-right: 45%;
     }
     
     .contact-icon-group{
@@ -2298,12 +2296,12 @@ hr{
     }
     
     .contact-2-div{
-        padding-left: 17rem;
-        padding-right: 17rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
     
     .achievements{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin-top: 2rem !important;
     }
     
@@ -2326,22 +2324,22 @@ hr{
     }
     
     .contact-text-1{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
         margin-top: 2rem !important;
     }
     
     .contact-text-2{
-        font-size: 1.2rem;
+        font-size: 1.7rem;
     }
     
     .footer-name{
-        font-size: 1.2rem;
+        font-size: 1.8rem;
         margin-top: 1.3rem !important;
         font-weight: 600;
     }
     
     .copyright{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin-top: 1rem;
         font-weight: 600;
     }
