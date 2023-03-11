@@ -370,14 +370,6 @@ hr{
         z-index: -1;
         height: 45%;
     }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 48%;
-    }
 
     .contact-2-div{
         padding-left: 0rem;
@@ -645,15 +637,6 @@ hr{
         z-index: -1;
         height: 46%;
         width: 75%;
-    }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 49%;
-        width: 74%;
     }
 
     .contact-2-div{
@@ -930,20 +913,6 @@ hr{
         height: 86% !important;
         width: 40% !important;
     }
-    
-    .nft-img-2{
-        position: absolute !important;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 89% !important;
-        width: 40% !important;
-    }
-
-    /* .contact-2-div{
-        padding-left: 0rem;
-        padding-right: 0rem;
-    } */
 
     .section-one{ 
         margin-top: 4rem !important;
@@ -1222,15 +1191,6 @@ hr{
         height: 47%;
         width: 70%;
     }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 50%;
-        width: 69%;
-    }
 
     .section-one{
         margin-top: 18rem !important;
@@ -1474,15 +1434,6 @@ hr{
         z-index: -1;
         height: 53%;
         width: 70%;
-    }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 56%;
-        width: 69%;
     }
 
     .section-one{
@@ -1748,14 +1699,6 @@ hr{
         right: 0;
         z-index: -1;
         height: 90%;
-    }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 95%;
     }
     
     section{
@@ -2062,15 +2005,6 @@ hr{
         z-index: -1;
         height: 60%;
         width: 40%;
-    }
-    
-    .nft-img-2{
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: -2;
-        height: 65%;
-        width: 41%;
     }
     
     section{
