@@ -39,14 +39,6 @@ body{
     height: 90%;
 }
 
-.nft-img-2{
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -2;
-    height: 95%;
-}
-
 section{
     font-family: 'Poppins';
 }
@@ -353,6 +345,7 @@ hr{
 
 /* MEDIA QUERIES */
 
+/* for slim width phones */
 @media (min-width: 200px) and (max-width: 361px) {
 
     body{
@@ -621,6 +614,7 @@ hr{
     }
 }
 
+/* for phones with width between 361px and 515px in portrait orientation */
 @media (orientation: portrait) and (min-width: 361px) and (max-width: 515px) {
     body{
         height: fit-content;
@@ -887,17 +881,16 @@ hr{
     }
 } 
 
+/* for phones with landscape orientation with width between 361px and width 990px  */
 @media (orientation: landscape) and (min-width: 361px) and (max-width: 990px) {
 
     html{
         overflow-x: hidden !important; 
-        /* overflow-y: scroll; */
         width: 100vw !important;
         height: fit-content;
         scroll-behavior: smooth;
     }
     body{
-        /* height: 250% !important; */
         overflow-y: auto;
         width: 100vw !important;
         overflow-x: hidden !important;
@@ -1173,6 +1166,7 @@ hr{
 
 } 
 
+/* for phones with width between 515px and 576px */
 @media (min-width: 515px) and (max-width: 576px) {
 
     body{
@@ -1418,6 +1412,7 @@ hr{
     }
 } 
 
+/* for phones with width 576px and 768px in portrait orientation */
 @media (orientation: portrait) and (min-width: 576px) and (max-width: 768px) {
     body{
         height: fit-content;
@@ -1670,6 +1665,7 @@ hr{
     }
 }
 
+/* for desktops/laptops with width between 990px and 1400px */
 @media  (min-width: 990px) and (max-width: 1400px) {
     .navbar{
         font-family: 'Poppins';
@@ -1973,6 +1969,7 @@ hr{
     }
 }   
 
+/* for large screens with widths above 1400px */
 @media (min-width: 1400px) {
 
     .navbar{
